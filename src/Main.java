@@ -65,7 +65,8 @@ public class Main {
             );
         }
 
-        Job selectedJob = jobs[0];
+        int selectedJobNumber = scanner.nextInt();
+        Job selectedJob = jobs[selectedJobNumber - 1];
 
         EligibilityChecker checker = new EligibilityChecker();
 
