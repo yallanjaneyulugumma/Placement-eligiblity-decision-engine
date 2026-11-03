@@ -70,6 +70,7 @@ public class Main {
 
         EligibilityChecker checker = new EligibilityChecker();
 
+        System.out.println();
         System.out.println("================================");
         System.out.println("PLACEMENT ELIGIBILITY RESULT");
         System.out.println("================================");
